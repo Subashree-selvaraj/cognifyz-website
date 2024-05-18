@@ -72,8 +72,8 @@ nav {
 
   .animated-text {
     color: wheat; /* Text color (white) */
-    text-shadow: 0 0 30px red; /* Initial glow */
-    animation: glowing 1.5s ease-in-out infinite alternate; /* Animation properties */
+    text-shadow: 0 0 30px red; 
+    animation: glowing 1.5s ease-in-out infinite alternate; 
   }
   
   @keyframes glowing {
