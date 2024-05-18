@@ -47,8 +47,9 @@ nav {
 }
 
 .nav-links li a:hover {
-    
-    color: whitesmoke;
+    color:black;
+    background-color: whitesmoke;
+
 }
 
 .nav-title {
@@ -71,16 +72,16 @@ nav {
 
   .animated-text {
     color: wheat; /* Text color (white) */
-    text-shadow: 0 0 10px red; /* Initial glow */
+    text-shadow: 0 0 30px red; /* Initial glow */
     animation: glowing 1.5s ease-in-out infinite alternate; /* Animation properties */
   }
   
   @keyframes glowing {
     0% {
-      text-shadow: 0 0 10px red; /* Start with a subtle glow */
+      text-shadow: 0 0 30px red; /* Start with a subtle glow */
     }
     100% {
-      text-shadow: 0 0 20px red; /* Peak of the glow */
+      text-shadow: 0 0 30px red; /* Peak of the glow */
     }
   }
   
@@ -242,7 +243,7 @@ nav {
     height:200px;
     padding: 0.5rem;
     
-    background-color: #f5f5f5;
+    background-color: #EFF396;
     border-radius: 4px;
     overflow: hidden;
     transition: transform 0.5s ease;
@@ -251,7 +252,7 @@ nav {
 
 .card:hover {
     transform: translateY(-8px);
-    box-shadow: 0px 8px 8px red;
+    box-shadow: 0px 8px 8px white;
 }
 
 .card-title {
@@ -288,15 +289,16 @@ nav {
     flex-wrap: wrap;
 }
 .domain-card {
-    background-color:wheat;
+    background-color:#EFF396;
     border-radius: 10px;
-    padding: 20px;
+    padding: 17px;
+    
     /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
-    margin-bottom: 20px;
+    margin: 10px;
     width: calc(33.333% - 20px); /* Adjust width as needed */
     box-sizing: border-box;
      /* Creates a subtle outer shadow */
-    transition: transform 0.5s ease-in-out; /* Animation properties */
+    transition: transform 0.7s ease-in-out; /* Animation properties */
 }
 
 .domain-card:hover {
